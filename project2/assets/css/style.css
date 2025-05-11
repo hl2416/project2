@@ -1,0 +1,111 @@
+body
+{
+  background-color: #5dbcd2;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.page
+{
+  margin: 0 auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: White;
+  word-wrap: break-word;
+}
+
+.title
+{
+  margin: 0;
+  padding: 20px;
+  color: Black;
+  font-size: 36px;
+}
+
+.text
+{
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+li
+{
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+ul
+{
+  padding-bottom: 30px;
+}
+
+footer
+{
+  padding-bottom: 30px;
+}
+
+.topnav
+{
+  background-color: Black;
+  overflow: hidden;
+}
+
+.topnav a
+{
+  display: inline-block;
+  color: White;
+  text-align: center;
+  padding: 14px 6%;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover
+{
+  color: Black;
+  background-color: White;
+}
+
+.topnav a.active
+{
+  color: Black;
+  background-color: #5dbcd2;
+}
+
+.right
+{
+  float: right;
+}
+
+.footer
+{
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px)
+{
+  .page
+  {
+    margin: 0;
+  }
+
+  img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .topnav
+  {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+  }
+}
